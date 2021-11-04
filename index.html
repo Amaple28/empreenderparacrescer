@@ -23,7 +23,7 @@ Tooplate 2116 Blugoon
 https://www.tooplate.com/view/2116-blugoon
 -->
 
-<body>
+<body style="position: relative;" data-spy="scroll" data-target=".main-nav">
     <div id="page-wraper">
         <!-- Sidebar Menu -->
         <div class="responsive-nav">
@@ -38,7 +38,7 @@ https://www.tooplate.com/view/2116-blugoon
                         <h4>Empreender Para Crescer</h4>
                         <span>Curso Online</span>
                     </div>
-                    <nav class="main-nav" role="navigation">
+                    <nav class="main-nav" id="navbar-principal" role="navigation">
                         <ul class="main-menu">
                             <li><a href="#section1">Início</a></li>
                             <li><a href="#section2">Sobre</a></li>
@@ -69,7 +69,8 @@ https://www.tooplate.com/view/2116-blugoon
             </div>
         </div>
 
-        <section class="section about-me" id="section1" data-section="section1">
+        <div>
+                    <section class="section about-me" id="section1" data-section="section1">
             <div class="container">
                 <div class="top-header">
                     <img src="img/section-1-bg.jpg" alt="aerobic girls" />
@@ -289,9 +290,10 @@ https://www.tooplate.com/view/2116-blugoon
                     <br>
                 </div>
             </div>
-
-    </div>
     </section>
+        </div>
+    </div>
+
     </div>
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
@@ -303,7 +305,7 @@ https://www.tooplate.com/view/2116-blugoon
     <script src="assets/js/owl-carousel.js "></script>
     <script src="assets/js/lightbox.js "></script>
     <script src="assets/js/custom.js "></script>
-    <script>
+    <!-- <script>
         //according to loftblog tut
         $(".main-menu li:first ").addClass("active ");
 
@@ -351,7 +353,7 @@ https://www.tooplate.com/view/2116-blugoon
         $(window).scroll(function() {
             checkSection();
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
